@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Contact</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="presentation.html">Présentation</a></li><!--
+			 --><li><a href="photos.html">Photos</a></li><!--
+			 --><li id="active"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1>Contact</h1>
+			<form>
+				<div>
+					<span class="label"><label for="email">Email</label></span>
+					<input type="email" name="email" id="email" placeholder="Votre email" />
+				</div>
+				<div>
+					<span class="label"><label>Sexe</label></span>
+					<label><input type="radio" name="sexe" value="homme" /> Homme</label>
+					<input type="radio" name="sexe" id="femme" value="femme" /><label for="femme">Femme</label>
+					<label><input type="radio" name="sexe" value="autre" /> Autre</label>
+				</div>
+				<div>
+					<span class="label"><label for="objet">Objet</label></span>
+					<input type="text" name="objet" id="objet" placeholder="L'objet du commentaire" />
+				</div>
+				<div>
+					<span class="label"><label for="com">Commentaire</label></span>
+					<textarea name="com" id="com" placeholder="Votre commentaire"></textarea>
+				</div>
+				<button type="submit">Envoyer</button>
+			</form>
+		</main>
+	</body>
+</html>
